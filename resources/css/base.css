@@ -19,6 +19,10 @@ a {
   transition: .3s;
 }
 
+a:hover {
+  color: hsla(0, 0%, 13%, .6);
+}
+
 
 
 h1,
@@ -45,6 +49,11 @@ select {
   font-weight: bold;
   color: hsla(0, 0%, 100%, 1);
   transition: .25s;
+}
+
+.button:hover {
+  background-color: hsla(88, 100%, 25%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 
@@ -131,6 +140,8 @@ select {
 header {
   grid-area: header;
   display: grid;
+  justify-content: space-between;
+  justify-content: space-between;
   grid-template-columns: 22rem 1fr 22rem;
   align-items: center;
   padding: .75rem 5rem;
